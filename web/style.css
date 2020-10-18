@@ -1,0 +1,224 @@
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    background:#55d6aa;
+}
+
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.logo{
+    float:left;
+    padding:10px 0;
+}
+
+
+nav ul{
+    margin-left:0;
+    padding:0;
+    list-style: none;
+}
+
+nav{
+    float:right;
+}
+
+nav li{
+    display:inline-block;
+    margin-left:70px;
+    padding-top:25px;
+    position:relative;
+}
+
+nav a{
+    color:#444;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+nav a::before{
+    content:'';
+    display:block;
+    height:5px;
+    width:100%;
+    background-color:#444;
+    position:absolute;
+    top:0;
+    width:0%;
+    transition:all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+    width:100%;
+}
+  
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image:url(medic.jpg);
+    
+}
+
+.homepage{
+    text-align:center;
+    margin-top:360px;
+}
+
+.login{
+    background-color:red;
+    width:300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:black;
+}
+
+.login h1{
+    float:left;
+    font-size: 40px;
+    border-bottom:6px solid;
+    margin-bottom:50px;
+    padding:13px 0;
+    color:black;
+}
+
+.button{
+    color:black;
+}
+
+.logintext{
+    width:100%;
+    overflow:hidden;
+    font-size:20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid lime;
+}
+
+.home{
+    border:1px solid #fff;
+    background:none;
+    padding:10px 20px;
+    font-size:20px;
+    font-family:"montserrat";
+    cursor:pointer;
+    margin:10px;
+    transition:0.8s;
+}
+
+.btn1,.btn2,.btn3{
+    color: yellow;
+    background-color:salmon;
+}
+
+
+.btn1:hover,.btn2:hover,.btn3:hover{
+    color: black;
+}
+
+
+
+#submit {
+ margin:0 100px;
+ background-color: #bbb;
+ padding: .5em;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border-radius: 6px;
+ color: #fff;
+ font-family: 'Oswald';
+ font-size: 20px;
+ text-decoration: none;
+ border: none;
+}
+
+#submit:hover {
+ border: none;
+ background: orange;
+ box-shadow: 0px 0px 1px #777;
+}
+
+.register{
+    background: #fff;
+    width:800px;
+    height: 700px;
+    margin: 20px 0 0 400px;
+    color:black;
+    font-size:20px;
+}
+
+.edit{
+    background-color:peachpuff;
+    width:700px;
+    height:500px;
+    position:absolute;
+    left:25%;
+    top:20%;
+    
+}
+
+.table{
+    border-collapse: collapse;
+    margin:25px;
+    font-size:1.0em;
+    min-width:500px;
+}
+
+.table th{
+    background-color:aquamarine;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+}
+
+.table th,td{
+    padding:10px 10px;
+}
+
+.table tr{
+    background-color: khaki;
+    
+}
+
+.ptable{
+    border-collapse: collapse;
+    margin:25px;
+    font-size:1.0em;
+    min-width:500px;
+}
+
+.ptable th{
+    background-color:lightcoral;
+    color:black;
+    text-align:center;
+    font-weight:bold;
+}
+
+.ptable th,td{
+    padding:10px 10px;
+}
+
+.ptable tr{
+    background-color:peachpuff;
+    
+}
+
+.booking{
+    background-color:#fff;
+    height:600px;
+    width:800px;
+    margin:0 0 0 400px;
+    
+}
